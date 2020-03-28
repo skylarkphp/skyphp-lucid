@@ -1,0 +1,24 @@
+<form data-dojo-attach-point='containerNode' data-dojo-attach-event='onsubmit:_onSubmit' style="width: 100%; height: 100%;">
+  <div data-dojo-type="dijit/layout/BorderContainer" data-dojo-attach-point="borderContainer" style="width: 100%; height: 100%;">
+  	<div data-dojo-type="dijit/layout/TabContainer" data-dojo-attach-point="tabContainer" data-dojo-props="region:'center'">
+	    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="addSceneTab" title="addScene">
+        <div>
+          <label>Name:</label> 
+          <input data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="sceneName" name="name" required="true" />        
+        </div>        
+        <div data-dojo-attach-point="sceneType" style="margin-top:10px"></div>
+        <div data-dojo-attach-point="sceneView">
+        </div>
+      </div>
+      <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="addAppTab" title="addApp">
+      	<div>choose to add some app to your desktop</div>
+      </div>
+      <div data-dojo-type="qface/ui/layout/applet/Theme" data-dojo-attach-point="changeThemeTab" title="changeTheme"></div>
+    </div>
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-attach-point="submitNode" data-dojo-props="region:'bottom'">
+      <button data-dojo-type="dijit/form/Button" data-dojo-attach-point="cancelButton" class="dijitInline" label="Cancel" data-dojo-attach-event="onClick:onCancel">Cancel</button>        
+      <button data-dojo-type="dijit/form/Button" data-dojo-attach-point="saveButton" class="dijitInline" iconClass="icon-16-actions-document-save" label="Save" data-dojo-attach-event="onClick:onSubmit">Save</button>    
+    </div>
+  </div>
+</form>
+

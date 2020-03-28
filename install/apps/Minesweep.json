@@ -1,0 +1,12 @@
+{
+	"type": "application",
+	"sysname": "MineSweep",
+	"name": "MineSweep",
+	"author": "NefariousD",
+	"email": "nefariousd@gmail.com",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Games",
+	"filetypes": [],
+	"compatible": ["1.0.0"]
+}

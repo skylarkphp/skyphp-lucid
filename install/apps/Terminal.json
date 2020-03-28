@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "Terminal",
+	"name": "Terminal",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Accessories",
+	"icon": "icon-16-apps-utilities-terminal",
+	"filetypes": [],
+	"compatible": ["1.0.0"]
+}

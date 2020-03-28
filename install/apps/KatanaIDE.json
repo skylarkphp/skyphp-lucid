@@ -1,0 +1,14 @@
+{
+	"type": "application",
+	"sysname": "KatanaIDE",
+	"name": "Katana IDE",
+	"author": "Psychcf + NefariousD",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Development",
+	"icon": "katana.png",
+	"filetypes": [],
+	"permissions": ["core.app.write"],
+	"compatible": ["1.0.0"]
+}

@@ -1,0 +1,30 @@
+<div class="dijitDialog" tabindex="-1" waiRole="dialog" waiState="labelledby-${id}_title">
+	<div data-dojo-attach-point="titleBar" class="dijitDialogTitleBar">
+	<span data-dojo-attach-point="titleNode" class="dijitDialogTitle" id="${id}_title">${title}</span>
+	<span data-dojo-attach-point="closeButtonNode" class="dijitDialogCloseIcon" data-dojo-attach-event="onclick: onCancel">
+		<span data-dojo-attach-point="closeText" class="closeText">x</span>
+	</span>
+	</div>
+		<div data-dojo-attach-point="containerNode" class="dijitDialogPaneContent">
+			<form data-dojo-attach-event="onsubmit:onSubmit">
+				<div data-dojo-attach-point="errorNode" class='desktopRegisterDialogError'></div>
+				<div>
+					<span class='desktopInputLabel'>ユーザ名:</span>
+					<input type='text' data-dojo-attach-point="usernameInputNode" name='username' />
+				</div>
+				<div>
+					<span class='desktopInputLabel'>メールアドレス:</span>
+					<input type='text' data-dojo-attach-point="emailInputNode" name='email' />
+				</div>
+				<div>
+					<span class='desktopInputLabel'>パスワード:</span>
+					<input type='text' data-dojo-attach-point="passwordInputNode" name='password' />
+				</div>
+				<div>
+					<span class='desktopInputLabel'>パスワードを再入力:</span>
+					<input type='text' data-dojo-attach-point="confPasswordInputNode" name='confPassword' />
+				</div>
+				<input type='submit' name='submit' data-dojo-attach-point="submitNode" value='Submit' />
+			</form>
+		</div>
+</div>

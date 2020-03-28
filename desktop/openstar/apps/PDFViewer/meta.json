@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "PDFViewer",
+	"name": "PDFViewer",
+	"author": "lhw",
+	"email": "lhw@psteam.co.jp",
+	"version": "0.5",
+	"maturity": "Stable",
+	"category": "Office",
+	"icon": "",
+	"filetypes": [],
+	"compatible": ["1.0.0"]
+}

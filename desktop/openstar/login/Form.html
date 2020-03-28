@@ -1,0 +1,31 @@
+<form data-dojo-attach-point='containerNode' data-dojo-attach-event='onreset:_onReset,onsubmit:_onSubmit'>
+	<div data-dojo-attach-point="mainNode">
+		<div class='desktop_message'>${label}</div>
+		<div data-dojo-attach-point="errorNode" class='desktopFormError'></div>
+		<div>
+			<span class='desktopInputLabel'>ユーザ名:</span>
+			<input type='text' data-dojo-type="dijit.form.TextBox" data-dojo-attach-point="usernameField" class='desktopInput' name='username' />
+		</div>
+		<div>
+			<span class='desktopInputLabel'>パスワード:</span>
+			<input type='password' data-dojo-type="dijit.form.TextBox" class='desktopInput' name='password' />
+		</div>
+		<div style='visibility:hidden'>
+			<input type='radio' data-dojo-attach-point="newRadioNode" name='windowAct' data-dojo-type="dijit.form.RadioButton" id='${id}_windowActNew' value='new' />
+			<label for='${id}_windowActNew'> New window</label>&nbsp;&nbsp;&nbsp;
+			<input type='radio' data-dojo-attach-point="currentRadioNode" name='windowAct' data-dojo-type="dijit.form.RadioButton" id='${id}_windowActCurrent' value='current' />
+			<label for='${id}_windowActCurrent'> Current window</label>
+        </div>
+        <div>
+            <input type='checkbox' data-dojo-attach-point="rememberNode" name='remember' data-dojo-type="dijit.form.CheckBox" id='${id}_remember' />
+			<label for='${id}_remember'> 保存する</label>
+		</div>
+		<input type='submit' name='submit' data-dojo-type="dijit.form.Button" data-dojo-attach-point="submitNode" value='Login' label="Login" />
+		<div>
+			<a href='javascript:void(0);' data-dojo-attach-event="onclick:_showRegister">アカウント登録</a>
+		</div>
+		<div>
+			<a href='javascript:void(0);' data-dojo-attach-event="onclick:_showResetPass">パスワードを忘れた場合はこちら</a>
+		</div>
+	</div>
+</form>

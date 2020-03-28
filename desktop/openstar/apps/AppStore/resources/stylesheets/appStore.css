@@ -1,0 +1,35 @@
+/* top view app */
+.paneContainer{
+    height:130px;
+    border: 2px solid greenYellow;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+}
+
+.pane{
+    /*float:left;*/
+    margin-left:30px;
+    width:90%;
+    height:100%;
+}
+.evenPane{
+    background-color:#fff79e;
+}
+.oddPane{
+    background-color:#ffd4a0;
+}
+
+.nextPane{
+    /*width:30px;*/
+    margin-top:50px;
+    float:right;
+    background-image:url(../images/arrow-next.png);
+}
+
+.prevPane{
+    margin-top:50px;
+    /*width:30px;*/
+    float:left;
+    background-image:url(../images/arrow-prev.png);
+}

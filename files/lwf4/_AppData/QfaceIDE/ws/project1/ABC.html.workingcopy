@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="../../../../../project1/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dijit/layout/BorderContainer",
+  "dijit/layout/ContentPane",
+  "dijit/Calendar",
+  "dijit/form/ComboBox",
+  "qface/controls/button/Button"
+]);
+</script>
+<style>@import "themes/claro/document.css";@import "themes/claro/claro.css";
+</style>
+</head>
+<body class="claro" data-maq-flow-layout="true" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+ <div data-dojo-type="dijit.layout.BorderContainer" design="sidebar" style="min-width: 1em; min-height: 1px; z-index: 0; height: 100%; width: 635px;">
+   <div data-dojo-type="dijit.layout.ContentPane" region="top" splitter="true" doLayout="false" style="height:66px;"></div>
+   <div data-dojo-type="dijit.layout.ContentPane" region="bottom" splitter="true" doLayout="false" style="height:62px;"></div>
+   <div data-dojo-type="dijit.layout.ContentPane" region="leading" splitter="true" doLayout="false" style="width:224px;">
+    <select data-dojo-type="dijit.form.ComboBox" value="Item 1" intermediateChanges="false" trim="false" uppercase="false" lowercase="false" propercase="false" invalidMessage="$_unset_$" pageSize="Infinity" searchDelay="200" style="width: 155px;">
+<option value="Item 1" selected="selected">
+        Item 1</option>
+      <option value="Item 2">
+        Item 2</option>
+      <option value="Item 3">
+        Item 3</option>
+    </select>
+    </div>
+   <div data-dojo-type="dijit.layout.ContentPane" region="trailing" splitter="true" doLayout="false" style="width:114px;">
+    <input data-dojo-type="dijit.Calendar" style="border: 1px; border-radius: 0px; -moz-border-radius: 0px; position: absolute; display: block; border-collapse: collapse; font-size: 13px; background-image: none; width: 181px; height: 167px; background-color: white; left: 22.5px; top: 19.5px;"></input>
+  </div>
+   <div data-dojo-type="dijit.layout.ContentPane" region="center" doLayout="false" style="border-radius: 69px; -moz-border-radius: 69px;">
+  </div>
+ </div>
+</body>
+</html>

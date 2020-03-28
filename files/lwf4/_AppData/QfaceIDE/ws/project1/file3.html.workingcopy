@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="../../../../../project1/dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[]"></script>
+<script type="text/javascript">
+require([
+  "dijit/dijit",
+  "dojo/parser",
+  "maqetta/space",
+  "maqetta/AppStates",
+  "dojox/mobile",
+  "dojox/mobile/deviceTheme",
+  "dojox/mobile/compat",
+  "dojox/mobile/TabBar",
+  "dojox/mobile/TabBarButton"
+]);
+</script>
+<style>@import "themes/claro/claro.css";@import "app.css";
+</style>
+<script type="text/javascript" src="app.js"></script>
+</head>
+<body class="claro" data-maq-flow-layout="true" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+<div style="background:#c5ccd3;" class="view mblView">
+ <div region="top" dojoType="dojox.mobile.Heading">Tab Scene</div>
+ <ul data-dojo-type="dojox.mobile.TabBar">
+ <li label="TabButton" data-dojo-type="dojox.mobile.TabBarButton"></li>
+   <li label="TabButton" data-dojo-type="dojox.mobile.TabBarButton" style="border-radius: 32px; -moz-border-radius: 32px; padding: -5px; background-color: green;"></li>
+   <li label="TabButton" data-dojo-type="dojox.mobile.TabBarButton"></li>
+   </ul>
+ </div>
+</body>
+</html>

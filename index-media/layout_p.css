@@ -1,0 +1,156 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #444;
+	background-color: #696969;
+	font: 12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;
+}
+
+a:link { color: #0066B3; text-decoration: none; outline:none; }
+a:visited { color: #6363B8; text-decoration: none; outline:none; }
+a:focus,a:active { outline:none; }
+
+#wrap {
+	margin: 0 auto;
+	width: 920px;
+}
+
+#top {
+    background: url('images/layout/header-center.png') repeat-x;
+    height: 60px;
+    position: relative;
+    margin: 0 8px;
+}
+
+#top .side {
+    width: 8px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+}
+#top .side.left {
+    background: url('images/layout/header-left.png') no-repeat;
+    left: -8px;
+}
+
+#top .side.right {
+    background: url('images/layout/header-right.png') no-repeat;
+    right: -8px;
+}
+
+#logo {
+    background: url('images/layout/logo.png') no-repeat;
+    float: left;
+    width: 475px;
+    height: 60px;
+    margin-left: 1em;
+}
+
+#middle {
+    height: 600px; 
+    padding: 2px;
+	background: #fff;
+}
+
+#bottom {
+/*	background:#FBFBFF url(images/layout/bg_footer.gif) top left repeat-x; */
+    color: #888;
+    text-align: center;
+    margin-top:8px;
+	background: #fff;
+}
+
+#toplink {
+    float: right;
+    background: url('images/layout/menu-left.png') no-repeat;
+    height: 39px;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    padding-left: 13px;
+}
+
+.dj_ie6 #toplink {
+    width: expression((this.childNodes[0].offsetWidth)+"px");
+    bottom: -24px;
+}
+
+#toplink ul {
+    background: url('images/layout/menu-right.png') top right no-repeat;
+    list-style-type: none;
+    list-style-position: inside;
+    padding: 0 13px 0 0;
+    height: 39px;
+    margin: 0px;
+}
+
+.dj_ie6 #toplink ul {
+    /*text-align: right;
+    width: 300px;*/
+    float: right;
+}
+
+#toplink ul li { 
+    background: url('images/layout/menu-center.png') repeat-x;
+    float: left;
+    height: 24px;
+    padding-top: 14px;
+}
+
+.dj_ie #toplink ul li,
+.dj_opera #toplink ul li {
+    padding-top: 13px;
+}
+
+.dj_webkit #toplink ul li {
+    padding-top: 20px;
+}
+/*
+.dj_webkit #toplink ul li::marker {
+    margin-top: 3px;
+}
+*/
+#toplink * a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    top: -10px;
+    line-height: 32px;
+    display: block;
+    padding: 1px 1em 0 1.7em;
+    height: 35px;
+    text-align: center;
+    /*font-weight: 700;*/
+    font-size: 1em;
+}
+
+.dj_ie6 #toplink * a {
+    float: left;
+}
+
+#toplink ul li.last a {
+    padding-right: 0px;
+}
+
+.dj_ie #toplink * a {
+    padding-top: 2px;
+}
+
+.dj_opera #toplink * a {
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.dj_webkit #toplink * a {
+    padding-top: 1px;
+    padding-left: 1.6em;
+    padding-right: .7em;
+    height: 18px;
+    line-height: 18px;
+}
+
+#toplink * a:hover {
+    color: #fff;
+}
+

@@ -1,0 +1,96 @@
+<form dojoAttachPoint='containerNode' dojoAttachEvent='onreset:_onReset,onsubmit:_onSubmit'>
+    <div dojoType="dijit.layout.BorderContainer" dojoAttachPoint="borderContainer" style="width: 100%; height: 100%;">
+        <div dojoType="dijit.layout.TabContainer" dojoAttachPoint="tabContainer" region="center">
+            <div dojoType="dijit.layout.ContentPane" dojoAttachPoint="contactTab" title="Contact">
+                <div>
+                    <label for="${id}_name" dojoAttachPoint="nameLabelNode">Name:</label>
+                    <input dojoType="dijit.form.TextBox" id="${id}_name" name="name" required="true" />
+                </div>
+                <div>
+                    <label for="${id}_email" dojoAttachPoint="emailLabelNode">Email:</label>
+                    <input id="${id}_email" name="email" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_phone_home" dojoAttachPoint="homephoneLabelNode">Home Phone:</label>
+                    <input id="${id}_phone_home" name="phone-home" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_phone_work" dojoAttachPoint="workphoneLabelNode">Work Phone:</label>
+                    <input id="${id}_phone_work" name="phone-work" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_phone_mobile" dojoAttachPoint="mobilephoneLabelNode">Mobile Phone:</label>
+                    <input id="${id}_phone_mobile" name="phone-mobile" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_fax" dojoAttachPoint="faxLabelNode">Fax:</label>
+                    <input id="${id}_fax" name="phone-fax" dojoType="dijit.form.TextBox" />
+                </div>
+
+            </div>
+            <div dojoType="dijit.layout.ContentPane" dojoAttachPoint="addressTab" title="Address">
+                <b dojoAttachPoint="homeLabelNode">Home</b>
+                <hr />
+                <div>
+                    <label for="${id}_address_home" dojoAttachPoint="addressHomeLabelNode">Address:</label>
+                    <input dojoType="dijit.form.Textarea" id="${id}_address_home" name="address-home" style="width: 70%;" />
+                </div>
+                <div>
+                    <label for="${id}_pobox_home" dojoAttachPoint="poboxHomeLabelNode">PO Box:</label>
+                    <input id="${id}_pobox_home" name="pobox-home" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_city_home" dojoAttachPoint="cityHomeLabelNode">City:</label>
+                    <input id="${id}_city_home" name="city-home" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_zip_home" dojoAttachPoint="zipHomeLabelNode">Zip/Postal Code:</label>
+                    <input id="${id}_zip_home" name="zip-home" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_state_home" dojoAttachPoint="stateHomeLabelNode">State/Province:</label>
+                    <input id="${id}_state_home" name="state-home" dojoType="dijit.form.TextBox" />
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="${id}_country_home" dojoAttachPoint="countryHomeLabelNode">Country:</label>
+                    <input id="${id}_country_home" name="country-home" dojoType="dijit.form.TextBox" />
+                </div>
+
+                <b dojoAttachPoint="workLabelNode">Work</b>
+                <hr />
+                <div>
+                    <label for="${id}_address_work" dojoAttachPoint="addressWorkLabelNode">Address:</label>
+                    <input dojoType="dijit.form.Textarea" id="${id}_address_work" name="address-work" style="width: 70%;" />
+                </div>
+                <div>
+                    <label for="${id}_pobox_work" dojoAttachPoint="poboxWorkLabelNode">PO Box:</label>
+                    <input id="${id}_pobox_work" name="pobox-work" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_city_work" dojoAttachPoint="cityWorkLabelNode">City:</label>
+                    <input id="${id}_city_work" name="city-work" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_zip_work" dojoAttachPoint="zipWorkLabelNode">Zip/Postal Code:</label>
+                    <input id="${id}_zip_work" name="zip-work" dojoType="dijit.form.TextBox" />
+                </div>
+                <div>
+                    <label for="${id}_state_work" dojoAttachPoint="stateWorkLabelNode">State/Province:</label>
+                    <input id="${id}_state_work" name="state-work" dojoType="dijit.form.TextBox" />
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="${id}_country_work" dojoAttachPoint="countryWorkLabelNode">Country:</label>
+                    <input id="${id}_country_work" name="country-work" dojoType="dijit.form.TextBox" />
+                </div>
+
+            </div>
+    
+        </div>
+        <div dojoType="dijit.layout.ContentPane" region="bottom">
+            <div style="text-align: right; margin-top: 5px;">
+                <div dojoType="dijit.form.Button" dojoAttachPoint="cancelButton" class="dijitInline" label="Cancel" dojoAttachEvent="onClick:onCancel"></div>
+                <div dojoType="dijit.form.Button" dojoAttachPoint="saveButton" class="dijitInline" iconClass="icon-16-actions-document-save" label="Save" dojoAttachEvent="onClick:onSubmit"></div>
+            </div>
+        </div>
+    </div>
+</form> 

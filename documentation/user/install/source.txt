@@ -1,0 +1,40 @@
+.. _user-install-source:
+
+======================
+Installing From Source
+======================
+
+**Note:** The development version of Lucid is cutting/bleeding edge software. You should not use it unless you know what you are doing. You have been warned.
+
+Checking out source code from subversion
+========================================
+In order to get a copy of Lucid's source code, you must have Git_. installed.
+
+.. _Git: http://www.git-scm.com/
+
+Our Git repository is located at http://github.com/psychcf/lucid/tree/master
+
+To check out a copy, run this command:
+
+.. code-block:: bash
+    
+    git clone git://github.com/psychcf/lucid.git lucid
+
+Building
+========
+Unless you plan on installing Lucid Desktop locally, you should build it. This compresses the javascript that is sent to the client so the desktop will load faster.
+From a terminal, navigate to the ``/desktop/dojotoolkit/util/buildscripts/`` directory. Then run this command (for windows run build.bat instead of build.sh):
+
+.. code-block:: bash
+    
+    ./build.sh profile=desktop action=release mini=true
+
+Then, copy all contents of ``/desktop/dojotoolkit/release/dojo/`` to ``/desktop/dojotoolkit/``, and delete the release directory.
+
+If you want to make updating in the future easier, you can edit the paths of the ``<script>`` tags on both ``index.html`` and ``desktop/index.html`` to point to the javascript files in the release directory. Also fix the paths in ``desktop/dojotoolkit/desktop/login/Form.js``.
+
+Note that if you so an SVN update, and anything in the ``/desktop/dojotoolkit/`` directory is updated, you must rebuild and clear your cache.
+
+Installation
+============
+From here, you can follow the :ref:`installation instructions <user-install-instructions>` to get everything set up. 

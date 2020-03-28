@@ -1,0 +1,123 @@
+{"data":[
+	{
+		"id":0,
+		"items":[
+			{
+				"baseQuota":26214400,
+				"name":"aaa111",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ccc",
+				"remainingQuota":26214297,
+				"size":0,
+				"type":"text/directory"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"bbb111",
+				"path":	"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"ccc111",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd 2",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			}
+
+		]
+	},
+	{
+		"id":1,
+		"items":[
+			{
+				"baseQuota":26214400,
+				"name":"aaa2222",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ccc",
+				"remainingQuota":26214297,
+				"size":0,
+				"type":"text/directory"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"bbb222",
+				"path":	"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"ccc222",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd 2",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			}
+
+		]
+	},
+	{
+		"id":2,
+		"items":[
+			{
+				"baseQuota":26214400,
+				"name":"aaa333",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ccc",
+				"remainingQuota":26214297,
+				"size":0,
+				"type":"text/directory"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"bbb333",
+				"path":	"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"ccc333",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd 2",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			}
+
+		]
+	},
+	{
+		"id":3,
+		"items":[
+			{
+				"baseQuota":26214400,
+				"name":"aaa444",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ccc",
+				"remainingQuota":26214297,
+				"size":0,
+				"type":"text/directory"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"bbb444",
+				"path":	"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			},
+			{
+				"baseQuota":26214400,
+				"name":"ccc444",
+				"path":"C:\\xampp\\w3term\test.www.w3term.com\backend\/../files/2//Desktop//ddd 2",
+				"remainingQuota":26214297,
+				"size":7,
+				"type":"text/plain"
+			}
+
+		]
+	}
+]}
+

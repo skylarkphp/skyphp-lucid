@@ -1,0 +1,83 @@
+.pagination{
+	height:96%;
+	width:99%;
+	border: 1px solid #ccc;
+	padding:3px 3px 10px 3px;
+}
+
+.sortCnt{
+	height:20px;
+	padding:3px;	
+	text-align:center;
+}
+
+.sortCnt ul{
+	display:inline;
+	list-style: none;
+}
+
+.sortCnt li{
+	float:left;
+	width:16%;
+	display:inline;
+	margin-left:3px;
+}
+
+.sortCnt a{
+	padding-left:20px;
+	padding-right:20px;
+	color:#968E8E;
+	text-decoration: none;
+	background:#EFEFEF;
+}
+
+.pageCnt{
+
+}
+
+.pageCnt .evenItem{
+	background-color: #ccc;
+}
+
+.pageCnt .oddItem{
+	background-color: rgb(240, 240, 240);
+}
+
+.pageNavCnt{
+	height: 25px;
+	text-align: center;
+	margin-top:5px;
+}
+
+.pageNavCnt a{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	text-decoration: none;
+	border: 1px solid #e7ecf0;
+	margin-right: 5px;
+	line-height: 24px;
+}
+
+.pageNavCnt a:hover{
+	background: #ebebeb;
+}
+
+a.cntPg{
+	border: 0;
+	font-style: bolder;
+}
+
+a.nextPg, a.prevPg{
+	width:40px;
+}
+
+.firstPg, .lastPg{
+	width:40px;
+	display: inline-block;
+}
+
+a.currentSort {
+	border: 1px solid #ccc;
+	background-color: #fff;
+}

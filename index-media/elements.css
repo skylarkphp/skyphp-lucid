@@ -1,0 +1,231 @@
+/* page style */
+
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    margin: 5px 0 8px 0;
+	color: #0e56b9;
+}
+
+h1 a.headerlink,
+h2 a.headerlink,
+h3 a.headerlink,
+h4 a.headerlink,
+h5 a.headerlink,
+h6 a.headerlink {
+    display: none;
+    text-decoration: none;
+}
+
+h1:hover a.headerlink,
+h2:hover a.headerlink,
+h3:hover a.headerlink,
+h4:hover a.headerlink,
+h5:hover a.headerlink,
+h6:hover a.headerlink {
+    display: inline;
+}
+
+a:hover {
+	color: #0e56b9;
+	text-decoration: none;
+}
+
+/* Documentation */
+
+dl {
+    margin-bottom: 15px;
+    /*clear: both;*/
+    clear: left;
+}
+
+dd p {
+    margin-top: 0px;
+}
+
+dd ul, dd table {
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+pre {
+    padding: 5px;
+    background-color: #efc;
+    color: #333;
+    border: 1px solid #ac9;
+    border-left: none;
+    border-right: none;
+    overflow: auto;
+}
+
+tt {
+    background-color: #ecf0f3;
+    padding: 0 1px 0 1px;
+    font-size: 0.95em;
+}
+
+tt.descname {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+tt.descclassname {
+    background-color: transparent;
+}
+
+tt.xref, a tt {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+table.docutils td, table.docutils th {
+    padding: 1px 8px 1px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #aaa;
+}
+
+table.docutils th {
+    font-weight: bold;
+}
+
+table.field-list td, table.field-list th {
+        border: 0 !important;
+}
+
+table.indextable td {
+        text-align: left;
+            vertical-align: top;
+}
+
+table.indextable dl, table.indextable dd {
+        margin-top: 0;
+            margin-bottom: 0;
+}
+
+table.indextable tr.pcap {
+        height: 10px;
+}
+
+table.indextable tr.cap {
+        margin-top: 10px;
+            background-color: #f2f2f2;
+}
+
+img.toggler {
+        margin-right: 3px;
+            margin-top: 3px;
+                cursor: pointer;
+}
+
+form.pfform {
+        margin: 10px 0 20px 0;
+}
+
+.field-list ul {
+        margin: 0;
+            padding-left: 1em;
+}
+
+.field-list p {
+        margin: 0;
+}
+
+div.admonition {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+div.admonition dt {
+    font-weight: bold;
+}
+
+div.admonition dl {
+    margin-bottom: 0;
+}
+
+div.admonition p {
+    display: inline;
+}
+
+div.seealso {
+    background-color: #ffc;
+    border: 1px solid #ff6;
+}
+
+div.warning {
+    background-color: #ffe4e4;
+    border: 1px solid #f66;
+}
+
+div.note {
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+p.admonition-title {
+    margin: 0px 10px 5px 0px;
+    font-weight: bold;
+    display: inline;
+}
+
+p.admonition-title:after {
+    content: ":";
+}
+
+
+/* site-wide elements */
+
+a.edit {
+	font-size: 0.6em;
+	position: relative;
+	bottom: 3px;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+.rssbutton {
+    float: right;
+}
+
+.nofloat .rssbutton {
+    float: none;
+}
+
+.rssbutton div {
+    float: left;
+}
+
+.rssbutton .text {
+    line-height: 26px;
+    margin-right: 5px;
+}
+
+.rssicon {
+    background: url('images/layout/rss-icon.png');
+    width: 27px;
+    height: 27px;
+}
+
+a .rssicon {
+    text-decoration: none;
+}
+
+a.clear .rssbutton {
+    clear: right;
+}
+
+.rssbullet {
+    clear: left;
+}

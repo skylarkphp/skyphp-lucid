@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Untitled</title>
+<script type="text/javascript" src="../../../../../project1//dojo/dojo.js" data-dojo-config="'parseOnLoad':true,'async':true,'packages':[]"></script>
+<style>@import "themes/claro/document.css";@import "themes/claro/claro.css";
+</style>
+<script type="text/javascript">
+require([
+  "maqetta/space",
+  "maqetta/AppStates"
+]);
+</script>
+</head>
+<body class="claro" data-maq-flow-layout="true" data-maq-ws="collapse" data-maq-appstates="{}" id="myapp">
+</body>
+</html>

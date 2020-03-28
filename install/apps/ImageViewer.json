@@ -1,0 +1,12 @@
+{
+	"type": "application",
+	"sysname": "ImageViewer",
+	"name": "Image Viewer",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Graphics",
+	"filetypes": ["image/*"],
+	"compatible": ["1.0.0"]
+}

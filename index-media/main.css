@@ -1,0 +1,174 @@
+#title {
+	font: 11px Verdana, Arial, Sans-Serif;
+	line-height: 16px;
+	clear: both;
+	border-top: 1px dotted #888;
+	border-bottom: 1px dotted #888;
+	background: #eaeaea;
+	color: #555;
+	padding: 1em;
+    margin-top:15px;
+    word-break:normal;
+}
+#title a {
+	text-decoration: none;
+	border-bottom: 1px dashed #0066B3;
+}
+#title .text {
+	width: 820px;
+	margin: 0px auto;
+	padding-left: 80px;
+	background: url(./images/logos/subheader.png) no-repeat left center;
+}
+
+/* menu icons */
+#toplink  ul li.home a {
+    background: url('images/layout/icons/home.png') no-repeat left center;
+}
+
+#toplink ul li.documentation a {
+    background: url('images/layout/icons/documentation.png') no-repeat left center;
+}
+
+
+#toplink ul li.community a {
+    background: url('images/layout/icons/community.png') no-repeat left center;
+}
+
+#toplink ul li.pj a {
+    background: url('images/layout/icons/code.png') no-repeat left center;
+}
+
+.message-set {
+}
+
+.message-set div {
+    color: #eee;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+
+.message-set div div.message {
+    line-height: 35px;
+}
+
+.message-set div div.close {
+    background-image: url('images/layout/close.png');
+    width: 12px;
+    height: 13px;
+    cursor: pointer;
+    float: right;
+    margin-top: 11px;
+    margin-right: 8px;
+}
+
+.message-set div div.close:hover {
+    background-image: url('images/layout/close-hover.png');
+}
+
+a {
+	color: #777;
+}
+
+.slideshow {
+float: left;
+margin-left:30px
+margin-top: 5%;
+}
+
+.slideshow .screenshot {
+    background: url('images/intro.png') no-repeat;
+	width: 488px;
+	height: 380px;
+}
+
+#centerForm {
+	z-index: 100;
+	width: 300px;
+	margin-left: 580px;
+	margin-right: 20px;
+	position: relative;
+	margin-top: 5%;
+}
+.mainBox a {
+    font-size: 8pt;
+}
+
+.desktop_message {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.mainBox {
+	text-align: center;
+	background-color: white; 
+	margin: 0px;
+}
+#login_header, #login_foot {
+	width: 100%;
+	position: relative;
+	height: 20px;
+}
+.centerEdge {
+	position: absolute;
+	width: 310px;
+	height: 20px;
+	top: 0px;
+	left: 20px;
+	background-color: white;
+}
+#tr, #tl, #br, #bl {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 0px;
+}
+#tr {
+	right: 0px;
+	background-image: url('./images/tr.png');
+}
+#tl {
+	left: 0px;
+	background-image: url('./images/tl.png');
+}
+#br {
+	right: 0px;
+	background-image: url('./images/br.png');
+}
+#bl {
+	left: 0px;
+	background-image: url('./images/bl.png');
+}
+
+#plink {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #bbb;
+    z-index: 500;
+    text-decoration: none;
+}
+#plink:hover {
+    color: #ddd;
+}
+
+.desktopInputLabel {
+    display: block;
+    font-size: 8pt;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.dijitTextBox {
+    display: block;
+    width: 300px !important;
+    margin-left: 25px !important;
+    font-size: 18pt !important;
+    margin-bottom: 5px !important;
+}
+
+.dijitRadio {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}

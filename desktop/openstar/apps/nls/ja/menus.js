@@ -1,0 +1,20 @@
+define(
+({
+"accessories":"アクセサリ",
+"accountInfo":"アカウント情報",
+"administration":"管理プログラム",
+"graphics":"画像",
+"internet":"インターネット",
+"office":"オフィス",
+"appearance":"外観",
+"preferences":"設定",
+"about":"About Lucid Desktop",
+"applications":"アプリケーション",
+"games":"ゲーム",
+"multimedia":"マルチメディア",
+"development":"開発",
+"system":"システム",
+"places":"マイスペース",
+"logOut":"ログアウト"
+})
+);

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="w3term is your terminal of web" />
+    <meta name="keywords" content="w3term,ポータル,ターミナール,SaaS,クラウド,Platform,プラットフォーム,Webサービス,webOS,web desktop,webデスクトップ,web2.0" />
+    <title>W3TERM</title>
+	<link rel="shortcut icon" href="./index-media/images/logos/favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="./index-media/layout_p.css"/>
+	<link rel="stylesheet" type="text/css" href="./index-media/main.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./index-media/print.css" media="print" />
+
+	<script type="text/javascript">
+		dojoConfig = {
+			async:true,
+			isDebug:true,
+			parseOnLoad: false,
+			cacheBust: 'f940814741d832335cf203555c0e7236f56925ad',
+			ioPublish:true,
+			extraLocale: ["'ja","ja-jp"],
+			baseUrl:"/desktop/",
+			packages:[
+				{
+					name:"dojo",
+					location:"lib/dojo"
+				},
+				{
+					name:"dijit",
+					location:"lib/dijit"
+				},
+				{
+					name:"dojox",
+					location:"lib/dojox"
+				},
+				{
+					name:"orion",
+					location:"lib/orion"
+				},
+        		{
+            		name: "djquery",
+            		location: "lib/djquery"
+            	}, 
+				{
+					name:"qscript",
+					location:"src/qscript"
+				},
+				{
+					name:"qscriptx",
+					location:"src/qscriptx"
+				},
+				{
+					name:"qface",
+					location:"src/qface"
+				},
+				{
+					name:"qfacex",
+					location:"src/qfacex"
+				},
+				{
+					name:"openstar",
+					location:"src/openstar"
+				},
+				{
+					name:"apps",
+					location:"src/openstar/apps"
+				}
+
+			]
+		};
+	</script>
+	<script type="text/javascript" src="./desktop/src/_integration/requirejs/require.js"></script>
+<!--	
+	<script type="text/javascript" src="./desktop/lib/dojo/dojo.js?f940814741d832335cf203555c0e7236f56925ad"></script>
+-->
+    <script type="text/javascript">
+		// Require the registry, parser, Dialog, and wait for domReady
+		require.config(dojoConfig);
+
+		require(["dijit/registry", "dojo/parser", "dojo/json", "dojo/_base/config", "dijit/Dialog","dojo/domReady!"], function(registry, parser, JSON, config) {
+    		// Explicitly parse the page
+   			 parser.parse();
+		});
+	</script>
+    
+    <link href="./desktop/lib/dojo/resources/dojo.css" rel="stylesheet" type="text/css" />
+    <link href="./desktop/lib/dijit/themes/dijit.css" rel="stylesheet" type="text/css" />
+    <link href="./desktop/lib/dijit/themes/tundra/tundra.css" rel="stylesheet" type="text/css" />
+	
+</head>
+<body class="tundra">
+<div id="wrap">
+	<div id="top">
+        <div class="side left"></div>
+        <div class="side right"></div>
+        <a href="" title="w3term Logo">
+            <div id="logo"></div>
+        </a>
+        <div id="toplink">
+            <ul>
+			    <li class="home first"><a href="/">ホーム</a></li>
+	    		<li class="documentation"><a href="http://kb.w3term.com">ナレッジベース</a></li>
+			    <li class="community"><a href="http://comm.w3term.com">コミュニティ</a></li>
+	    		<li class="pj last"><a href="http://pj.w3term.com">デベロッププロジェクト</a></li>
+		    </ul>
+        </div>
+    </div>
+
+	<div id="middle">
+		<div id="title">
+		<div class="text">
+		<strong>w3term へようこそ！</strong>
+		WEB2.0～時代のポータルサイトであるw3term.comは、w3termアプリを通じて、Google検索、Yahoo!路線、Facebookコミュニティのような一般ユーザー向けのサービスを始め、SaaSとして提供された様々なサービスを完全ユーザー主導で利用する可能にします。<br>
+		<dl>
+		<dt>●一般ユーザー</dt>
+		<dd>　　仕事や娯楽、コミュニティなど、目的毎に自分専用のデスクトップを作成し、その上によく利用するw3temアプリを好みに応じて、配置することができます。</dd>
+		<dt>●サービス運営者</dt>
+		<dd>　　自分のインターネットサービスのFaceとなるw3termアプリを作成して、公開することができます。</dd>
+		<dt>●アプリ開発者</dt>
+		<dd>　　w3temが用意した基本サービスコンポーネントを利用して、ビジネスや教育、娯楽、コミュニティなど、様々な用途のw3termアプリを作成して、公開することができます。</dd>
+		</dl>
+		今後、様々な実用アプリが充実されていくと期待されますので、<strong>皆さん、w3termにログインして、楽しみながらw3termと一緒に成長しませんか！</strong>
+		</div>
+		<div style="clear:both;"></div>
+		</div>
+		<div id = "content">
+		<div class="slideshow"><div class="screenshot"></div></div>
+		<div>
+      	<div id="centerForm">
+            <div id="login_header">
+                <div id="tl"></div>
+                <div class="centerEdge"></div>
+                <div id="tr"></div>
+            </div>
+            <form id="psychdesktop_login" class="mainBox" data-dojo-type="openstar/login/Form" focusOnLoad="true" autoRedirect="false"></form>
+            <div id="login_foot">
+                <div id="bl"></div>
+                <div class="centerEdge"></div>
+                <div id="br"></div>
+            </div>
+       </div>
+       </div>
+       </div>
+	</div>
+
+   	<div id="bottom">
+		<!--<a href="#">日本語</a> | <a href="#">中文</a> | <a href="#">English</a>-->
+		<br>
+	    Copyright (C) 2012 <a href="http://www.psteam.co.jp/">株式会社ピーエスティー</a>　　All Rights Reserved
+   	</div>
+</div>
+</body>
+</html>

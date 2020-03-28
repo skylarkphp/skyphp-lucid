@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "Calculator",
+	"name": "Calculator",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Accessories",
+	"icon": "icon-16-apps-accessories-calculator",
+	"filetypes": [],
+	"compatible": ["1.0.0"]
+}

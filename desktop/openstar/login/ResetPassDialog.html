@@ -1,0 +1,22 @@
+<div class="dijitDialog" tabindex="-1" waiRole="dialog" waiState="labelledby-${id}_title">
+	<div data-dojo-attach-point="titleBar" class="dijitDialogTitleBar">
+	<span data-dojo-attach-point="titleNode" class="dijitDialogTitle" id="${id}_title">${title}</span>
+	<span data-dojo-attach-point="closeButtonNode" class="dijitDialogCloseIcon" data-dojo-attach-event="onclick: onCancel">
+		<span data-dojo-attach-point="closeText" class="closeText">x</span>
+	</span>
+	</div>
+		<div data-dojo-attach-point="containerNode" class="dijitDialogPaneContent">
+			<form data-dojo-attach-event="onsubmit:onSubmit">
+				<div data-dojo-attach-point="errorNode" class='desktopFormError'></div>
+				<div>
+					<span class='desktopInputLabel'>ユーザ名:</span>
+					<input type='text' data-dojo-attach-point="userInputNode" name='username' />
+				</div>
+				<div>
+					<span class='desktopInputLabel'>メールアドレス:</span>
+					<input type='text' data-dojo-attach-point="emailInputNode" name='email' />
+				</div>
+				<input type='submit' data-dojo-attach-point="submitNode" name='submit' value='Submit' />
+			</form>
+		</div>
+</div>

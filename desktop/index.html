@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html role="application" lang="ja">
+	<head>
+		<title>iW3term</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<link type="text/css" rel="stylesheet" media="screen" href="./lib/dojo/resources/dojo.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="./res/qface/dijit.css" />
+	    <link type="text/css" rel="stylesheet" media="screen" href="./res/qface/dijit_rtl.css" />
+	    <link type="text/css" rel="stylesheet" media="screen" href="./res/qface/qface.css" />
+	    <link type="text/css" rel="stylesheet" media="screen" href="./src/openstar/resources/openstar_rtl.css" />
+
+		<script type="text/javascript">
+			dojoConfig = {
+				async:true,
+				waitSeconds : 600000000,
+				isDebug:true,
+				extraLocale: ["'ja","ja-jp"],
+				baseUrl:"/desktop/",
+				aliases: [
+					["text","dojo/text"],
+					["i18n","dojo/i18n"],
+					["domReady","dojo/domReady"]
+				],
+				  paths: {
+					  text: 'src/qscript/system/loader/text',
+					  i18n: 'src/qscript/system/loader/i18n',
+					  qsm:  'src/qscript/system/loader/qsm',
+					  domReady: 'src/qscript/system/loader/ready'
+				  },
+				packages:[
+					{
+						name:"dojo",
+						location:"lib/dojo"
+					},
+					{
+						name:"dijit",
+						location:"lib/dijit"
+					},
+					{
+						name:"dojox",
+						location:"lib/dojox"
+					},
+					{
+						name:"orion",
+						location:"lib/orion"
+					},
+					{
+						name:"javascript",
+						location:"lib/javascript"
+					},
+					{
+						name:"esprima",
+						main:"esprima",
+						location:"lib/esprima"
+					},
+					{
+						name:"eslint",
+						location:"lib/eslint"
+					},
+					{
+						name:"estraverse",
+						main:"estraverse",
+						location:"lib/estraverse"
+					},
+					{
+						name:"doctrine",
+						location:"lib/doctrine"
+					},
+					{
+						name:"javascript",
+						location:"lib/javascript"
+					},
+					{
+						name:"requirejs",
+						location:"src/_integration/requirejs"
+					},
+	        		{
+	            		name: "djquery",
+	            		location: "lib/djquery"
+	            	}, 
+					{
+						name:"qface",
+						location:"src/qface"
+					},
+					{
+						name:"qscript",
+						location:"src/qscript"
+					},
+					{
+						name:"qscriptx",
+						location:"src/qscriptx"
+					},
+					{
+						name:"res",
+						location:"res"
+					},
+					{
+						name:"utilhub",
+						location:"src/utilhub"
+					},
+					{
+						name:"qfacex",
+						location:"src/qfacex"
+					},
+					{
+						name:"qstudio",
+						location:"src/qstudio"
+					},
+					{
+						name:"openstar",
+						location:"src/openstar"
+					},
+					{
+						name:"openstar",
+						location:"src/openstar"
+					},
+					{
+						name:"ucenter",
+						location:"src/ucenter"
+					},
+					{
+						name:"oapps",
+						location:"src/openstar/apps"
+					}
+
+				]
+			};
+		</script>
+
+<!--		<script type="text/javascript" src="./lib/dojo/dojo.js"></script>   -->
+		<script type="text/javascript" src="./src/_integration/requirejs/require.js"></script>
+
+	    <script type="text/javascript">
+			/*globals require*/
+			require.config(dojoConfig);
+
+			require([
+				"dijit",
+				"qscript/qscript-all",
+			],function(dijit,qscript) {
+				require([
+					"qscript/lang/json",
+					"openstar/system/Runtime",
+					"openstar/desktop/Desktop",
+					"openstar/services/general",
+					"qscript/util/Factory",
+					"qsm!openstar/test",
+					"domReady!"
+				], function(
+					JSON,
+					Runtime,
+					Desktop,
+					srvGeneral,
+					Factory
+				) {
+					var config;
+					try {
+						var runtime = new Runtime({
+							"centerUrl"	: "/center"
+						});
+						//test
+						runtime.appcompurls = {
+							"app:sample.tools:psteam.co.jp:calculator"	: "/desktop/swh/psteam.co.jp/samples/1.0.0/tools/calculator"
+						};
+
+						runtime.startup().then(function(){
+							runtime.run();
+						});
+
+	//				        	calculatorAppFactory = new Factory(CalculatorApp);
+	//				        	runtime.registerService(
+	//				        		"app:sample.tools:psteam.co.jp:calculator",
+	//				        		calculatorAppFactory,
+	//				        		{}
+	//				        	);
+					} catch(e) {
+						throw e;
+					}
+
+				});
+			});
+		</script>
+
+	</head>
+<!--	<body class="dijit" onselectstart="return false" oncontextmenu="return false" ondragstart="return false"> -->
+	<body class="dijit" oncontextmenu="return false">
+		<noscript>
+			<div style="text-align: center; margin-top: 15%; font-size: 20px;">
+				<div>You must have javascript enabled to use the desktop.</div>
+				<div>Please enable javascript and refresh the page to continue.</div>
+			</div>
+		</noscript>
+	</body>
+</html>

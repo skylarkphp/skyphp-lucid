@@ -1,0 +1,111 @@
+/* AppListWidget.css */
+.appWidget {
+  /*min-width: 568px;
+  min-height:90px;*/
+  /*border: 1px solid #F1EDED;*/
+  overflow: hidden; 
+}
+
+.appWidget .appIcon {
+  float: left;
+  width:50px;
+  padding:5px;
+  height:90px;
+}
+
+.appWidget .titleSpan{
+  text-align: left;
+  margin-left:3px;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.appWidget .contentNode{
+  float:left;
+  width:65%;
+  padding-top: 10px;
+}
+
+.appWidget .description{
+  min-height: 35px;
+}
+
+.appWidget .timeNode{
+  text-align: right;
+}
+
+.appWidget ul{
+  display:inline;
+  list-style: none;
+}
+
+.appWidget .timeNode li{
+  display:inline;
+  padding:3px;
+}
+
+.appWidget .actionNode{
+  width:80px;
+  float:right;
+  margin-right: 10px
+}
+
+.appWidget .actionNode li{
+  margin-bottom: 3px;
+}
+
+.appWidget .actionNode a, .paneAction a {
+  display: block;
+  width:80px;
+  border:1px solid #7d99ca; 
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size:9px !important; 
+  text-align: center; 
+  color: #FFFFFF; 
+  text-decoration: none;
+  background-color: #a5b8da;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5b8da), color-stop(100%, #7089b3));
+  background-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: -moz-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: -ms-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: -o-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: linear-gradient(top, #a5b8da, #7089b3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a5b8da, endColorstr=#7089b3);
+}
+
+.appWidget .actionNode a:hover,.paneAction a:hover {
+  text-decoration: none;
+  border:1px solid #5d7fbc; background-color: #819bcb;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#819bcb), color-stop(100%, #536f9d));
+  background-image: -webkit-linear-gradient(top, #819bcb, #536f9d);
+  background-image: -moz-linear-gradient(top, #819bcb, #536f9d);
+  background-image: -ms-linear-gradient(top, #819bcb, #536f9d);
+  background-image: -o-linear-gradient(top, #819bcb, #536f9d);
+  background-image: linear-gradient(top, #819bcb, #536f9d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#819bcb, endColorstr=#536f9d);
+}
+
+/* simple app css */
+
+.simpleAppWidget{
+  border: 1px solid #F1EDED;
+  overflow: hidden; 
+}
+
+.simpleAppWidget .appIcon {
+  float: left;
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.simpleAppWidget .contentNode{
+  float:left;
+  margin-top:8px;
+  margin-left:6px;
+}
+
+/* topAppWidget css */
+.topAppWidget{
+  /*background-color: blue;*/
+}
+

@@ -1,0 +1,8 @@
+function functionName ()
+{
+
+}
+
+function a() {
+	this.
+}

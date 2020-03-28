@@ -1,0 +1,97 @@
+ol, ul,li {
+	list-style:none;
+}
+
+#navBar{
+	width:240px;
+	height:32px;
+	line-height:32px;
+	position:absolute;
+	left:50%;
+	margin-left:-100px;
+	margin-top: 30px;
+	background:url(../images/navBg0.png) no-repeat center center;
+	text-align:center;
+	z-index:99;
+	}
+#navBar a{
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:4px 3px 0 0;
+	outline:none
+}
+
+#desktop-list{
+	float:left;
+  margin-left:10px;
+}
+#desktop-list a{
+	background:url(../images/navbg.png) no-repeat left top;
+} 
+#desktop-list a:hover{
+	background-position: -48px top;
+}
+#desktop-list a.currTab{
+	background-position:-24px top;
+}	
+
+#action-list {
+	float:right;
+	margin: 4px 8px 0 0;
+}
+
+#navScreen{
+	width:73px;
+	/*height:auto;*/
+	min-height: 500px;
+	position:absolute;
+	right:0;
+	top:80px;
+	background:url(../images/dock_top.png) repeat-y left top;
+	z-index:90;
+	-moz-box-shadow: 0px 3px 15px #444;
+	-webkit-box-shadow: 0px 3px 15px #444;
+	box-shadow:0px 3px 15px #444;
+	padding-top:5px;
+}
+
+
+html[dir='ltr'] .findbar {
+  left: 68px;
+}
+
+html[dir='rtl'] .findbar {
+  right: 68px;
+}
+
+.findbar label {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+}
+
+.search-bar {
+  border: 1px solid hsla(0,0%,0%,.5);
+  border-radius: 2px;
+  width:235px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  margin:36px auto;
+}
+.search-bar:after, .search-bar:before {
+  bottom: -10%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  right:13px;
+}
+.search-bar:after {
+  border-bottom-color: hsla(0,0%,32%,.99);
+  border-width: 8px;
+}
+.search-bar:before {
+  border-bottom-color: hsla(0,0%,0%,.5);
+  border-width: 9px;
+}

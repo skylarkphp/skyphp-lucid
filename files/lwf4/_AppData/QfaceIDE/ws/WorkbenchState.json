@@ -1,0 +1,15 @@
+{
+	"editors":[
+		"./project1/folder1/file1.js",
+		"./project1/file1.js","./project1/ABC.html",
+		"./project1/lib/custom/TTT/BBB_oam.json",
+		"./project1/lib/custom/TTT/BBB_widgets.json",
+		"./project1/file3.html"
+	],
+	"activeEditor":"./project1/file3.html",
+	"nhfo":{
+		"device":"iphone",
+		"layout":"flow"
+		},
+	"project":"project1"
+}

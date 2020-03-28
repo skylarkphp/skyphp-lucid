@@ -1,0 +1,15 @@
+<div class="${baseClass}" data-dojo-attach-point="baseNode">
+	<div class="appIcon" data-dojo-attach-point="appIconNode" style="display:none"><img src="${appIcon}"></div>
+	<div class="contentNode">
+	  <div data-dojo-attach-point="nameNode" style="display:none" class="appName">${name}</div>
+	  <div data-dojo-attach-point="authorNode" style="display:none" class="appAuthor">${author}</div>
+	  <div class="description" data-dojo-attach-point="descriptionNode" style="display:none">${!defaultDescription}</div>
+		<div class="timeNode" data-dojo-attach-point="timeNode" style="display:none">
+			<ul>
+				<li data-dojo-attach-point="createdNode">Created:${created_at}</li>
+				<li data-dojo-attach-point="updatedNode">Updated:${updated_at}</li>
+			</ul>
+		</div>
+  </div>
+  <div class="actionNode" data-dojo-attach-point="actionNode" style="display:none"></div>
+</div>
