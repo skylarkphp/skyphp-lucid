@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html role="application">
+	<head>
+		<title>Lucid Desktop</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<script type="text/javascript">
+			var djConfig = {
+				usePlainJson: true
+			};
+			(function(){
+				var matches = document.cookie.match(new RegExp("(?:^|; )desktopLocale=([^;]*)"));
+				var cookie = matches ? decodeURIComponent(matches[1]) : false;
+				if (cookie !== false && cookie != "NONE") 
+					djConfig.locale = cookie;
+			})();
+		</script>
+        <link type="text/css" rel="stylesheet" media="screen" href="./dojotoolkit/lucid/resources/background.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="./dojotoolkit/lucid/resources/desktop.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="./dojotoolkit/dojo/resources/dojo.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="./dojotoolkit/dijit/themes/dijit.css" />
+		<link type="text/css" rel="stylesheet" media="screen" href="./dojotoolkit/dijit/themes/dijit_rtl.css" />
+		<script type="text/javascript" src="./dojotoolkit/dojo/dojo.js"></script>
+		<script type="text/javascript" src="./dojotoolkit/lucid/lucid.js"></script>
+	</head>
+	<body class="dijit">
+		<noscript>
+			<div style="text-align: center; margin-top: 15%; font-size: 20px;">
+				<div>You must have javascript enabled to use the lucid.</div>
+				<div>Please enable javascript and refresh the page to continue.</div>
+			</div>
+		</noscript>
+	</body>
+</html>

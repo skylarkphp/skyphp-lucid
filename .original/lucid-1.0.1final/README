@@ -1,0 +1,17 @@
+  _                _     _ 
+ | |              (_)   | |
+ | |    _   _  ___ _  __| |
+ | |   | | | |/ __| |/ _` |
+ | |___| |_| | (__| | (_| |
+ |______\__,_|\___|_|\__,_|
+============================
+
+Lucid is a free, open source web based desktop, web desktop, or webOS that gives you a portable, online workspace that you can use to store files, play media, and manage your office documents. The goal of the project is to provide an application platform that integrates seamlessly with the web, existing desktop technologies, and mobile devices. 
+
+Lucid is licensed under the AFL, for more details see LICENSE.
+
+Documentation can be found in the 'documentation' directory, or at http://www.lucid-desktop.org/documentation/
+
+For more information, visit http://www.lucid-desktop.org/
+
+If you find a bug, please report it at http://code.lucid-desktop.org/

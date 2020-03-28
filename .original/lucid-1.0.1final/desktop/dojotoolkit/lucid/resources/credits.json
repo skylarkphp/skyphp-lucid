@@ -1,0 +1,21 @@
+([
+	{
+		"title": "Contributors",
+		"items": [
+			["Will \"Psychcf\" Riley", ["Project Manager", "Core Developer"]],
+			["Jay MacDonald", ["Core Developer", "Assistant Project Manager"]],
+            ["Steven Mautone", "Marketing Ninja"],
+			["David \"mmx\" Clayton", "Artwork & Themes"],
+            ["Louis Lapointe", "Community Contributor"],
+			["Corey \"nefariousD\" Martin", "Community Contributor"]
+		]
+	},
+	{
+		"title": "Special Thanks",
+		"items": [
+			["The Dojo Toolkit", "Javascript awesomeness"],
+			["The Dojo Foundation", "Thanks for the support!"],
+			["Nicola Rizzo", "CodeTextArea widget in IDE"]
+		]
+	}
+])

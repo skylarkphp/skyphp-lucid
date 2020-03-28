@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "Todo",
+	"name": "Todo",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Office",
+	"filetypes": [],
+	"icon": "icon-16-actions-list-add",
+	"compatible": ["1.0.0"]
+}

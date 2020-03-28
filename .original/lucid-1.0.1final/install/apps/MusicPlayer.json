@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "MusicPlayer",
+	"name": "Music Player",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Multimedia",
+	"filetypes": ["audio/*"],
+	"icon": "icon-16-actions-media-playback-start",
+	"compatible": ["1.0.0"]
+}

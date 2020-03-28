@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "StartupConfig",
+	"name": "Startup Applications",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Preferences",
+	"icon": "icon-16-apps-preferences-system-session",
+	"filetypes": [],
+	"compatible": ["1.0.0"]
+}

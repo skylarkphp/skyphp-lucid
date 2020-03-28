@@ -1,0 +1,17 @@
+.. _dev-intro-getting-started:
+
+===============
+Getting Started
+===============
+
+Application Developers
+======================
+You can start off by checking out the :ref:`Application Tutorial <dev-intro-application-tutorial>`.
+If you want to write your own application, we have a `skeleton application`_. available. You can easily fork this on GitHub, or just download the files. If you're having problems with ``meta.json``, you can read the :ref:`packaging docs <dev-howto-packages>` for help.
+
+.. _skeleton application: http://github.com/psychcf/lucid-baseapp/tree/master
+
+Theme Developers
+================
+There isn't a theme tutorial yet, however, you can copy one of the existing themes, change the background images, and fiddle with the CSS files.
+See the :ref:`packaging docs <dev-howto-packages>` for information on how to make a package once you're done.

@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "AdminPanel",
+	"name": "Administration Panel",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Administration",
+	"filetypes": [],
+	"permissions": ["core.administration"],
+	"compatible": ["1.0.0"]
+}

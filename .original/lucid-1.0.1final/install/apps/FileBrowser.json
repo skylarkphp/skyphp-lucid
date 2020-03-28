@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "FileBrowser",
+	"name": "File Browser",
+	"author": "Psychcf",
+	"email": "will@psychdesigns.net",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "System",
+	"icon": "icon-16-apps-system-file-manager",
+	"filetypes": ["text/directory"],
+	"compatible": ["1.0.0"]
+}

@@ -1,0 +1,25 @@
+dojo.provide("lucid.apps.KatanaIDE");
+dojo.require("dijit.layout.SplitContainer");
+dojo.require("dijit.layout.TabContainer");
+dojo.require("dijit.layout.ContentPane");
+dojo.require("dijit.Tree");
+dojo.require("dijit.form.Textarea");
+dojo.require("dijit.form.Button");
+dojo.require("dijit.form.ValidationTextBox");
+dojo.require("dijit.form.TextBox");
+dojo.require("dijit.Toolbar");
+dojo.require("dijit.Dialog");
+dojo.require("dijit.Menu");
+dojo.require("dijit.form.FilteringSelect");
+dojo.require("dojo.data.ItemFileWriteStore");
+dojo.requireLocalization("lucid", "common");
+dojo.requireLocalization("lucid", "apps");
+dojo.requireLocalization("lucid.ui", "menus");
+dojo.requireLocalization("lucid", "system");
+dojo.requireLocalization("lucid.widget", "filearea");
+dojo.requireLocalization("lucid.apps.KatanaIDE", "ide");
+
+dojo.require("lucid.apps.KatanaIDE._base");
+dojo.require("lucid.apps.KatanaIDE.CodeTextArea");
+dojo.require("lucid.apps.KatanaIDE.EditorLite");
+lucid.addDojoCss("desktop/apps/KatanaIDE/codeEditor.css");

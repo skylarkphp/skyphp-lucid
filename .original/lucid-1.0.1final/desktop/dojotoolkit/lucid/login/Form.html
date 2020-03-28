@@ -1,0 +1,31 @@
+<form dojoAttachPoint='containerNode' dojoAttachEvent='onreset:_onReset,onsubmit:_onSubmit'>
+	<div dojoAttachPoint="mainNode">
+		<div class='desktop_message' dojoAttachPoint="desktopMessageNode"></div>
+		<div dojoAttachPoint="errorNode" class='desktopFormError'></div>
+		<div>
+			<span class='desktopInputLabel' dojoAttachPoint="usernameLabelNode"></span>
+			<input type='text' dojoType="dijit.form.TextBox" dojoAttachPoint="usernameField" class='desktopInput' name='username' />
+		</div>
+		<div>
+			<span class='desktopInputLabel' dojoAttachPoint="passwordLabelNode"></span>
+			<input type='password' dojoType="dijit.form.TextBox" class='desktopInput' name='password' />
+		</div>
+		<div>
+			<input type='radio' dojoAttachPoint="newRadioNode" name='windowAct' dojoType="dijit.form.RadioButton" id='${id}_windowActNew' value='new' />
+			<label for='${id}_windowActNew' dojoAttachPoint="newWindowLabelNode"></label>&nbsp;&nbsp;&nbsp;
+			<input type='radio' dojoAttachPoint="currentRadioNode" name='windowAct' dojoType="dijit.form.RadioButton" id='${id}_windowActCurrent' value='current' />
+			<label for='${id}_windowActCurrent' dojoAttachPoint="currentWindowLabelNode"></label>
+        </div>
+        <div>
+            <input type='checkbox' dojoAttachPoint="rememberNode" name='remember' dojoType="dijit.form.CheckBox" id='${id}_remember' />
+			<label for='${id}_remember' dojoAttachPoint="rememberLabelNode"> Remember me</label>
+		</div>
+		<input type='submit' name='submit' id="submit" dojoType="dijit.form.Button" dojoAttachPoint="submitNode" value='Login' label='Login' />
+		<div>
+			<a href='javascript:void(0);' dojoAttachEvent="onclick:_showRegister" dojoAttachPoint="registerNode"></a>
+		</div>
+		<div>
+			<a href='javascript:void(0);' dojoAttachEvent="onclick:_showResetPass" dojoAttachPoint="resetPasswordNode"></a>
+		</div>
+	</div>
+</form>

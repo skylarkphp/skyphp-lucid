@@ -1,0 +1,12 @@
+.. _dev-ref-widget-window:
+
+=====================
+lucid.widget.Window
+=====================
+
+.. module:: lucid.widget.Window
+    :synopsis: The standard window widget 
+
+The window widget is the root widget for every application's UI. It contains all the application's UI elements, such as toolbars, form widgets, and status bars. The window widget acts similar to Dojo's BorderContainer widget.
+
+For usage info, check the :ref:`Application Tutorial <dev-intro-application-tutorial>` page.

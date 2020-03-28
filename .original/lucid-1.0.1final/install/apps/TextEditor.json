@@ -1,0 +1,13 @@
+{
+	"type": "application",
+	"sysname": "TextEditor",
+	"name": "Text Editor",
+	"author": "Jaymacdonald",
+	"email": "Jaymac407@gmail.com",
+	"version": "1.0",
+	"maturity": "Stable",
+	"category": "Accessories",
+	"icon": "icon-16-apps-accessories-text-editor",
+	"filetypes": ["text/*"],
+	"compatible": ["1.0.0"]
+}
